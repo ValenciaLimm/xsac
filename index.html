@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hairdo Salon - Valencia Lim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">Hairdo Salon</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / JUMBOTRON -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Transform Your Look,<br>Boost Your Confidence.</h1>
+        <p>Rambut kamu itu unik, dan aku di sini buat bikin tampilan kamu makin pede , kece dan bikin kamu cetar seharian..</p>
+        <a href="#contact" class="btn-primary">Booking Sekarang</a>
+      </div>
+      <div class="hero-photo">
+        <img src="images/profile.jpeg" alt="Valencia Lim - Hair Stylist">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="section">
+    <div class="container section-content about">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hai! Saya <strong>Valencia Lim</strong>, seorang hair stylist yang percaya setiap orang pantas tampil menawan. 
+          Bagi saya, setiap helai rambut punya karakter unik dan setiap orang punya gaya yang berbeda.
+        </p>
+        <p>
+          Saya suka menciptakan gaya rambut yang tidak hanya terlihat indah, tetapi juga membuat klien merasa nyaman dan percaya diri—baik untuk sehari-hari, photoshoot, wisuda, maupun acara spesial lainnya.
+        </p>
+      </div>
+      <div class="about-photo">
+        <!-- Ganti src dengan foto lain (full body / candid) -->
+        <img src="images/aboutme.jpeg" alt="About Valencia">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section-grey">
+    <div class="container section-content">
+      <h2 class="section-title">Services</h2>
+      <p class="section-subtitle">Beberapa layanan yang tersedia di Hairdo Salon.</p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Daily Hair Styling</h3>
+          <p>Styling untuk aktivitas sehari-hari dengan hasil natural, rapi, dan tahan lama.</p>
+        </div>
+        <div class="card">
+          <h3>Event / Party Hairdo</h3>
+          <p>Gaya rambut untuk pesta, ulang tahun, wisuda, atau photoshoot.</p>
+        </div>
+        <div class="card">
+          <h3>Bridal Hairdo</h3>
+          <p>Penataan rambut khusus pengantin dengan tampilan elegan dan timeless.</p>
+        </div>
+        <div class="card">
+          <h3>Soft Waves / Korean Style</h3>
+          <p>Styling ala Korea dengan soft waves yang manis dan feminin.</p>
+        </div>
+        <div class="card">
+          <h3>Hair Consultation</h3>
+          <p>Konsultasi gaya rambut sesuai bentuk wajah, jenis rambut, dan kebutuhanmu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <div class="container section-content">
+      <h2 class="section-title">Portfolio</h2>
+      <p class="section-subtitle">Beberapa hasil hairdo yang pernah saya kerjakan.</p>
+
+      <div class="gallery">
+        <!-- foto hasil hairdo -->
+        <div class="gallery-item">
+          <img src="images/hairdo1.jpg" alt="Hairdo 1">
+          <p class="gallery-caption">Soft Waves for Event</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hairdo2.jpg" alt="Hairdo 2">
+          <p class="gallery-caption">Bridal Hairdo Elegant</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hairdo3.jpg" alt="Hairdo 3">
+          <p class="gallery-caption">Party Glam Look</p>
+        </div>
+        <div class="gallery-item">
+          <img src="images/hairdo4.jpg" alt="Hairdo 4">
+          <p class="gallery-caption">Graduation Hairdo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-grey">
+    <div class="container section-content contact">
+      <div class="contact-text">
+        <h2 class="section-title">Contact & Booking</h2>
+        <p class="section-subtitle">Chat to reserve your slot.</p>
+
+        <ul class="contact-list">
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/6282360567631" target="_blank">+62 823-6056-7631</a></li>
+          <li><strong>Instagram:</strong> <a href="https://instagram.com/valencialimm" target="_blank">@valencialimm</a></li>
+          <li><strong>TikTok:</strong> <a href="https://tiktok.com/@hairdosalon" target="_blank">@hairdosalon</a></li>
+          <li><strong>Email:</strong> <a href="mailto:valenncialimm@gmail.com">valenncialimm@gmail.com</a></li>
+          <li><strong>Lokasi:</strong> Medan, Indonesia</li>
+        </ul>
+      </div>
+
+      <div class="contact-form">
+        <h3>Form Booking</h3>
+        <form>
+          <label for="name">Nama</label>
+          <input type="text" id="name" placeholder="Nama lengkap kamu">
+
+          <label for="service">Layanan</label>
+          <select id="service">
+            <option>Pilih layanan</option>
+            <option>Daily Hair Styling</option>
+            <option>Event / Party Hairdo</option>
+            <option>Bridal Hairdo</option>
+            <option>Soft Waves / Korean Style</option>
+          </select>
+
+          <label for="date">Tanggal</label>
+          <input type="date" id="date">
+
+          <label for="message">Catatan Tambahan</label>
+          <textarea id="message" rows="4" placeholder="Tulis kebutuhan kamu di sini..."></textarea>
+
+          <button type="submit" class="btn-primary">Kirim Request</button>
+        </form>
+        <p class="form-note">*Form ini hanya tampilan contoh untuk keperluan portfolio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2025 Hairdo Salon by Valencia Lim. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
